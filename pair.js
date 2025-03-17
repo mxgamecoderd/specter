@@ -57,24 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-🎮 *PAIR CODE CONNECTED BY OLATUNBOSUN* 🎮  
+🎮 *PAIR CODE CONNECTED BY Adetola Olatunbosun* 🎮  
 
-💻 *MADE WITH ❤️ BY OLATUNBOSUN* 💻  
+💻 *MADE WITH ❤️ BY Adetola Olatunbosun 💻  
 ━━━━━━━━━━━━━━  
 
 🌟 *『 WELCOME TO THE SAD REALM 』* 🌟  
-🎉 You’ve completed the first step to deploy *MX-1.0*!  
+🎉 You’ve completed the first step to deploy *Specter Md*!  
 
 📂 *BOT REPO:*  
-🔗 https://github.com/themxgamecoder/MX-1.0  
+🔗 https://github.com/Paradoxffx/SPECTER-V1
 
 📢 *WHATSAPP CHANNEL:*  
-🔗 https://chat.whatsapp.com/CB3O8v4T6ho14mDO9TpBYZ  
+🔗  https://whatsapp.com/channel/0029Vb491NuFXUudDkYNZm0l 
 
-👥 *WHATSAPP GROUP:*  
-🔗 https://whatsapp.com/channel/0029Vavz0e6E50Ugp30Z6z0W  
-
-✨ *2025 - OLATUNBOSUN* ✨  
+✨ *2025 - Adetola Olatunbosun* ✨  
 💡 _Don’t forget to give a ⭐ to my repo!_  
 `
 
