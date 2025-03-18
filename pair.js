@@ -57,22 +57,22 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-🎮 *PAIR CODE CONNECTED BY Adetola Olatunbosun* 🎮  
+🎮 *PAIR CODE CONNECTED BY D@¥id* 🎮  
 
-💻 *MADE WITH ❤️ BY Adetola Olatunbosun 💻  
+💻 *MADE WITH ❤️ BY D@¥id* 💻  
 ━━━━━━━━━━━━━━  
 
 🌟 *『 WELCOME TO THE SAD REALM 』* 🌟  
-🎉 You’ve completed the first step to deploy *Specter Md*!  
+🎉 You’ve completed the first step to deploy *Queen Jessica*!  
 
 📂 *BOT REPO:*  
-🔗 https://github.com/Paradoxffx/SPECTER-V1
+🔗  
 
 📢 *WHATSAPP CHANNEL:*  
-🔗  https://whatsapp.com/channel/0029Vb491NuFXUudDkYNZm0l 
+🔗 https://whatsapp.com/channel/0029VabAgzO5Ejy5rD9exU2F 
 
-✨ *2025 - Adetola Olatunbosun* ✨  
-💡 _Don’t forget to give a ⭐ to my repo!_  
+✨ *2025 - D@¥id* ✨  
+💡 _Don’t forget to give a ⭐ to my repo!_   
 `
 
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text: GIFTED_MD_TEXT},{quoted:session})
