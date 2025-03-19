@@ -56,8 +56,7 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
-               let GIFTED_MD_TEXT = `
-🎮 *PAIR CODE CONNECTED BY D@¥id* 🎮  
+               let GIFTED_MD_TEXT = `🎮 *PAIR CODE CONNECTED BY D@¥id* 🎮  
 
 💻 *MADE WITH ❤️ BY D@¥id* 💻  
 ━━━━━━━━━━━━━━  
@@ -72,8 +71,7 @@ router.get('/', async (req, res) => {
 🔗 https://whatsapp.com/channel/0029VabAgzO5Ejy5rD9exU2F 
 
 ✨ *2025 - D@¥id* ✨  
-💡 _Don’t forget to give a ⭐ to my repo!_   
-`
+💡 _Don’t forget to give a ⭐ to my repo!_`
 
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text: GIFTED_MD_TEXT},{quoted:session})
  
